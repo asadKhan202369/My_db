@@ -1,0 +1,276 @@
+.movie{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    /* gap: 2vmax; */
+    margin-top: 5vh;
+    justify-content: center;
+    background-size: cover !important;
+    background-position:top !important;
+ }
+.main{
+    width: 100%;
+    padding-top: 5vh;
+}
+.movie h6{
+    color: #fff;
+}
+
+.movie p{
+    color: #fff;
+}
+.movie h1{
+    color: #fff;
+}
+.left_card{
+    width: 30%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* background-color: #fff; */
+}
+.left_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img{
+    width: 70%;
+    height: 90%;
+    background-color: rebeccapurple;
+    overflow: hidden;
+    border-radius: 1vmax;
+}
+.right_card{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.right_card h1{
+    font-family: roobert;
+    font-size: 2vmax;
+    letter-spacing: 1px;
+
+}
+.right_card p{
+    font-family: roobert;
+    font-size: 1.2vmax;
+    font-weight: 570;
+    letter-spacing: 1px;
+}
+.right_card h6{
+    font-family: roobert;
+    font-weight: 500;
+    font-size: 1.2vmax;
+   /* color: #888; */
+    letter-spacing: 1px;
+
+}
+.div{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.ucircle{
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.uscor{
+    display: flex;
+    align-items: center;
+    gap: 1vmax;
+}
+.uscor h6{
+    font-family: roobert;
+    font-size: 1vmax;
+    font-weight: 600;
+}
+
+.details_div{
+    display: flex;
+    width: 100%;
+}
+.dl{
+    width: 70%;
+    height: 100%;
+    padding-left: 8vmax;
+}
+
+.dr{
+    width: 30%;
+    height: 100%;
+}
+.dl h1{
+    font-family: roobert;
+    font-size: 3vmax;
+    letter-spacing: 1px;
+    margin: 1vmax 0;
+    margin-top: 2vmax;
+}
+.dl h3{
+    font-family: roobert;
+    font-size: 1.5vmax;
+    letter-spacing: 1px;
+}
+.cast_slider1{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 1vmax;
+    padding: 0 2vmax;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+    padding-left: initial;
+}
+.cast_slider1::-webkit-scrollbar{
+    display: none;
+}
+
+.cst .img{
+    width: 100%;
+    height: 79%;
+    border-radius: initial;
+    margin: initial !important
+}
+.cst .img:hover img{
+    width: 105%;
+    height: 105%;
+}
+.cst .img img{
+    width: 100%;
+    height: 100%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    object-fit: cover;
+}
+.cst .btm{
+    padding-left: .3vmax;
+    padding-top: .6vmax;
+}
+.cst{
+    flex-shrink: 0;
+    width: 10vw;
+    height: 35vh;
+    background-color: #fff;
+    box-shadow: 0 0 2px #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cst h6{
+    font-family: roobert;
+    color: #111;
+    white-space: nowrap;
+    font-size: 1vmax;
+}
+
+.cst p{
+    font-family: roobert;
+    color: #444;
+    font-size: 1vmax;
+}
+.popular{
+    width: 100%;
+}
+.phead{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 3vmax;
+    padding: 1vmax 0;
+    padding-top: 6vh;
+    position: relative;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.phead h4{
+    font-family: roobert;
+    font-size: 1.2vmax;
+    letter-spacing: 1px;
+    color: #333;
+}
+.phead h6{
+    font-family: roobert;
+    font-size: 1vmax;
+    letter-spacing: 1px;
+    color: #000;
+}
+.poster{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top-left-radius: 10px;
+    padding: 5vh 0;
+}
+.pst{
+    width: 15vw;height: 40vh;
+    background-color: yellow;
+    flex-shrink: 0;
+}
+.poster::-webkit-scrollbar{
+    display: none;
+}
+.pst img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.h6line{
+     width: 7vw;
+     height: 4px;
+     background-color: #111;
+     position: absolute;
+     bottom: 0;
+     left:0%;
+     transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+.dr{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 60vh;
+    padding-left: 10vmax;
+    gap: 1vmax;
+    padding-top: 10vh;
+}
+
+.dr h6{
+    font-family: roobert;
+    font-size: 1.3vmax;
+    font-weight: 550;
+    color: #111;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+}
+
+.dr small{
+    font-family: roobert;
+    font-size: 1.1vmax;
+    font-weight: 550;
+    letter-spacing: 1px;
+    color: #6a6a6a;
+}

@@ -1,0 +1,172 @@
+.movie_card{
+    width: 8vw;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 12%;
+    z-index: 99999;
+    top: 6%;
+    display: flex;
+    gap: .7vmax;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    padding-left: 2vmax;
+    display: none;
+}
+
+
+#nav{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #032541;
+    padding: 0 2vmax;
+    z-index: 99999;
+}
+#nav .right svg{
+    height: 3.5vh;
+fill: #fff;
+margin-right: 1.5vmax;
+}
+
+#nav .left{
+    display: flex;
+    align-items: center;
+    gap: 1.5vmax;
+    padding-right: 7vmax;
+}
+#nav .left>LINKS{
+    text-decoration: none;
+}
+
+
+
+
+/* search0 */
+
+
+.Searchpage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: teal; */
+    /* background-color: #fff; */
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 9999;
+    background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    /* border-radius: 50%; */
+}
+
+.txtdiv{
+    width: 60%;
+    height: 60%;
+}
+.Searchpage form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 7vh;
+    height: 7vh;
+    margin-top: 10vh;
+}
+.Searchpage form input{
+    width: 100%;
+    font-weight: 550;
+    border: none; outline: none;
+    padding-left: 1vmax;
+    font-family: gilroy;
+    font-size: 1vmax;
+    border-radius: 7vh;
+    height: 7vh;
+}
+.Searchpage form button{
+    font-weight: 550;
+    border: none; outline: none;
+    padding-left: 1vmax;
+    padding: 0 2vmax;
+    background-color: #14cabe;
+    font-family: gilroy;
+    color: #fff;
+    font-size: 1vmax;
+    border-radius: 7vh;
+    height: 7vh;
+}
+
+.side_nav{
+    width: 30%;
+    height: 100%;
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0;
+    /* right: 0; */
+    left: 100%;
+    z-index: 99999;
+}
+.side_nav svg{
+    height: 5vh;
+}
+.side_nav .headd{
+    width: 100%;height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1vmax;
+}
+.mrows{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7vmax 1vmax;
+    border-bottom: 1px solid #222;
+    /* border-top: 1px solid #222; */
+}
+
+.mrows h6{
+    font-family: roobert;
+    font-size: 1.4vmax;
+    letter-spacing: 1px;
+}
+.options{
+    width: 100%;
+    padding: 1vmax 0;
+    padding-left: 2vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .5vmax;
+    border-bottom: 1px solid #222;
+}
+.options small{
+    font-family: roobert;
+    font-size: 1.1vmax;
+    font-weight: 550;
+}
+.opt{
+    display: flex;
+    align-items: center;
+    gap: .5vmax;
+}
+.opt svg{
+    height: 1vh;
+}
+.contant{
+    padding-top: 5vh;
+}

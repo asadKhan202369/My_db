@@ -1,0 +1,345 @@
+body{
+   cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.h1{
+    font-family: gilroy;
+    font-size: 4vmax;
+    font-weight: 700;
+    margin: initial;
+    margin-top: 5vh;
+    color: #fff;
+}
+
+#card .btm small{
+    font-family: roobert;
+    font-size: 1.1vmax;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#card .btm p{
+    font-family: roobert;
+    font-size: 1vmax;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.p{
+    font-family: gilroy;
+    font-size: 1.5vmax;
+    font-weight: 600;
+    color: #fff;
+    margin: initial;
+}
+.tranding{
+    /* background-color: yellow; */
+    padding: 0 2vmax;
+}
+#cards_div{
+    /* flex-wrap: wrap; */
+    padding: 0 3vmax;
+    width: 100%;
+    gap: 2vmax;
+    display: flex;
+    padding-top: 3vh;
+    align-items: center;
+    padding-left: 0;
+    overflow-x: auto;
+    /* background-color: yellow; */
+    /* background-color: yellow; */
+    padding-bottom: 3vh;
+    margin: auto;
+}
+#cards_div::-webkit-scrollbar{
+    display: none;
+}
+#cards_div #card{
+    width: 20%;
+    overflow: hidden;
+    height: 60vh;
+    position: relative;
+    flex-shrink: 0;
+    /* background-color: red; */
+    padding-bottom: 5vh;
+    border-radius: 10px;
+}
+.rat{
+    width: 6vh;
+    height: 6vh;
+    /* background-color: teal; */
+    /* background-color: #204529; */
+    border-radius: 50%;
+    position: absolute;
+    bottom: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 6%;
+}
+.rat h6{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: gilroy;
+    font-size: .8vmax;
+    font-weight: 500;
+    white-space: nowrap;
+    color: #fff;
+}
+.rat .rt{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    background-color: rebeccapurple;
+    background-color: #081c22;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rat .rt h6{
+    font-family: roobert;
+    font-size: .7vmax;
+    font-weight: 500;
+    color: #fff;
+}
+
+.div{
+    /* background-color: teal; */
+    flex-direction: column;
+}
+
+#cards_div #card .img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#cards_div #card .img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    background-position:top !important;
+}
+
+.paginate{width: 100%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.paginate{
+    padding-bottom: 5vh;
+    padding-top: 10vh;
+}
+.paginate button{
+    width: 10vw;
+    height: 5vh;
+    font-family: gilroy;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #222;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.1vmax;
+}
+.paginate .h6{
+    font-family: gilroy;
+    font-size: 1.5vmax;
+    color: #222;
+    font-weight: 700;
+    padding: 0 1vmax;
+}
+#movie{
+    padding-top: 12vh;
+    width: 100%;
+    display: flex;
+    gap: 3vmax;
+    height: 70vh;
+    padding-left: 8vw;
+}
+.left_card{
+    width: 26%;
+    height: 70vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left_card img{
+    width: 100%;height: 100%;
+    object-fit: cover;
+}
+.right_card{
+    width: 50%;
+    overflow:hidden ;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    gap: 1vmax !important;
+}
+.right_card h1{
+    font-family: gilroy;
+    font-size: 3vmax;
+    color: #111;
+}
+
+.right_card p{
+    font-family: gilroy;
+    font-size: 1.1vmax;
+    display: flex;
+    margin-top: -10vmax;
+    color: #111;
+    line-height: 1;
+    margin: initial;
+    /* color: red; */
+}
+.dt{
+    font-family: roobert;
+    font-size: .8vmax;
+    font-weight:550;
+    margin-top: 5px;
+    color: #666!important;
+}
+
+.right_card h6{
+    font-family: gilroy;
+    font-size: 1.1vmax;
+    color: #111;
+    font-weight: 600;
+    margin-bottom: 15vh;
+    line-height: 1;
+    margin: initial;
+    margin: 1.5vmax 0;
+}
+
+.right_card small{
+    margin-top: 10vh;
+    font-family: gilroy;
+    font-size: 1vmax;
+    color: #111;
+    margin: initial;
+    line-height: 1.2;
+}
+.div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    justify-content: center;
+    padding-bottom: 5vh;
+    padding-top:10vh;
+    gap: 2vmax;
+}
+.div h1{
+    font-family: roobert;
+    font-size: 3vmax;
+    letter-spacing: 1px;
+}
+.tw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    border-radius: 2vmax;
+    /* gap: 1vmax; */
+    height: 7vh;
+    padding: 0 1vmax;
+    border: 1px solid #032541;
+    overflow: hidden;
+    width: 20vw;
+    padding-right: 1vmax;
+    position: relative;
+}
+.tw1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2vmax;
+    /* gap: 1vmax; */
+    height: 7vh;
+    padding: 0 1vmax;
+    border: 1px solid #032541;
+    overflow: hidden;
+    width: 30vw;
+    padding-right: 1vmax;
+    position: relative;
+}
+.tw h6{
+    font-family: roobert;
+    font-size: 1.1vmax;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.tw1 h6{
+    font-family: roobert;
+    font-size: 1.1vmax;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.h6{
+    color: #97ecbf;
+}
+
+.tw #t{
+    position: absolute;
+    /* top: 0; */
+    z-index: -1;
+    display: flex;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #032541;
+    /* border-radius: 3vmax; */
+    border-top-left-radius: 3vmax;
+    border-bottom-left-radius: 3vmax;
+    padding: 5px 1vmax;
+    width: 50%;
+    height: 100%;
+    transition: all cubic-bezier(0.23, 1, 0.320, 1).5s;
+    color: #69ccab;
+}
+
+
+
+.tw1 #t{
+    position: absolute;
+    /* top: 0; */
+    z-index: -1;
+    display: flex;
+    left: 0%;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #032541;
+    padding: 5px 1vmax;
+    width: 27%;
+    border-top-left-radius: 3vmax;
+    border-bottom-left-radius: 3vmax;
+    height: 100%;
+    transition: all cubic-bezier(0.23, 1, 0.320, 1).5s;
+    color: #69ccab;
+}
